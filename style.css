@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+h2{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    background-color: orange;
+    height: 30px;
+}
+
+#btn1{
+    background-color: rgb(251, 251, 168);
+    border: none;
+    border-radius: 20px;
+    width: 160px;
+    font-weight: bold;
+}
+
+canvas{
+    animation-name: colour_change;
+    animation-name: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colour_change{
+    from{box-shadow: 1px 1px 30px orange;}
+    to{box-shadow: 1px 1px 30px yellow;}
+}
